@@ -1,4 +1,4 @@
-FROM php:8.2-fpm
+FROM php:8.4.7RC1-fpm-alpine3.20
 
 # ติดตั้ง Extensions
 RUN apt-get update && apt-get install -y \
